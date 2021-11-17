@@ -21,7 +21,7 @@ public class ReverseString {
 		
 		reverse.append(reverseByte);
 		System.out.println("Bytes "+reverse);
-
+		//  this is even better approach.
 		StringBuffer reverBuffer = new StringBuffer(name);
 		for (int i=0,j = name.length()-1;i<name.length()/2+1;i++,j--){
 			if (i>j){
